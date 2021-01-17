@@ -7,7 +7,7 @@ def draw_circle(event,x,y,flags,param):
         cv2.circle(img,(x,y),100,(0,0,255),10)
 
 # Open Image
-img = cv2.imread('dog_backpack.png')
+img = cv2.imread('dog_backpack.jpg')
 
 # This names the window for reference 
 cv2.namedWindow(winname='dogpack')
